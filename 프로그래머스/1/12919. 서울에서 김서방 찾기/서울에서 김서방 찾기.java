@@ -6,12 +6,12 @@ class Solution {
             
             
             if ("Kim".equals(str)){
-                return "김서방은 " + Num + "에 있다";
+                break;
             }
             
             Num += 1;
         
         }
-        return "";
+        return "김서방은 " + Num + "에 있다";
     }
 }
