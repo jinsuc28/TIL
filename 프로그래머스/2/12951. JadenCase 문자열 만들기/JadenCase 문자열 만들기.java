@@ -17,32 +17,7 @@ class Solution {
                 
             }
         }
-//         String[] strArray = s.split(" ");
-//         String str;
         
-//         if (strArray.length ==0){
-//             return s;
-//         }
-        
-//         for (int arrIdx = 0; arrIdx<strArray.length; arrIdx++){
-//             str = strArray[arrIdx];
-//             for (int idx=0; idx<str.length(); idx++){
-//                 // char c = str.charAt(idx);
-//                 if (idx==0){
-//                     answer += ("" + str.charAt(idx)).toUpperCase();
-//                 } else{
-//                     answer += ("" + str.charAt(idx)).toLowerCase();
-//                 }
-//                 // answer += ((String) c).toUpperCase();
-//             }
-
-            
-//             if (arrIdx <strArray.length-1){
-//                 answer += " ";
-//             }
-            
-//         }
-                
         return answer;
     }
 }
